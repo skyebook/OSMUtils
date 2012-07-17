@@ -9,8 +9,8 @@ package net.skyebook.osmutils;
 public class Node extends NodeWayRelationBaseObject {
 
     private long id;
-    private double latitude;
-    private double longitude;
+    private double latitude = Double.NaN;
+    private double longitude = Double.NaN;
 
     /**
      * @return the id
